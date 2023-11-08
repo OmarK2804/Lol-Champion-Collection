@@ -7,13 +7,13 @@ Stateless widgets are used for static content like labels, icons, buttons, or si
 ### • Explain all widgets that you used in this assignment.
 
 1) MyApp
-A stateless widget for the root of the application. Use the widget build method.
+: A stateless widget for the root of the application. Use the widget build method.
 
 2) MyHomePage
-A stateless widget for the home page of the application. It holds the values (in this case the title) provided by the parent (in this case the App widget). Use the widget build method.
+: A stateless widget for the home page of the application. It holds the values (in this case the title) provided by the parent (in this case the App widget). Use the widget build method.
 
 3) ShopCard
-A stateless widget to display the card. Use the widget build method.
+: A stateless widget to display the card. Use the widget build method.
 
 ### • Explain how you implemented the checklist above step-by-step (not just following the tutorial).
 
