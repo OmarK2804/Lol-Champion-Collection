@@ -29,11 +29,25 @@ Although push() and pushReplacement() may seem similar , the key difference lies
 
 ### • Explain each layout widget in Flutter and their respective usage contexts!
 
+1) Container
+: Used to contain other widgets and provides properties for alignment, padding, margin, and decoration. 
+
+2) Row and Column
+: Used to arrange widgets in a horizontal (row) or vertical (column) line.
+
+3) ListView
+: Used for displaying a scrollable list of widgets.
+
+4) Stack
+: Used to overlay widgets on top of each other.
+
+5) Expanded and Flexible
+: Used in combination with Row or Column to distribute space among the children.
 
 
 ### • List the form input elements you used in this assignment and explain why you used these input elements!
 
-
+I use 'TextFormField'. It is used to capture user input, such as text or numbers, and automatically handles common input-related tasks like validation and formatting.
 
 ### • How is clean architecture implemented in a Flutter application?
 
