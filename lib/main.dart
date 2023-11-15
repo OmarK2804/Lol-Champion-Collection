@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lol_champion_collection/menu.dart';
+import 'package:lol_champion_collection/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());
