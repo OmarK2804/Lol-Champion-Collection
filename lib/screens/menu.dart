@@ -28,6 +28,8 @@ class MyHomePage extends StatelessWidget {
     title: const Text(
       'League of Legends Champion Collection',
     ),
+    backgroundColor: Colors.indigo,
+              foregroundColor: Colors.white,
   ),
   // Add drawer as parameter of the Scaffold widget
             drawer: const LeftDrawer(),
