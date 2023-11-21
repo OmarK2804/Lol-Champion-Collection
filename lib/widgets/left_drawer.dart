@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lol_champion_collection/screens/menu.dart';
 import 'package:lol_champion_collection/screens/shoplist_form.dart';
+import 'package:lol_champion_collection/screens/list_product.dart';
 
 class LeftDrawer extends StatelessWidget {
   const LeftDrawer({super.key});
@@ -15,7 +16,7 @@ class LeftDrawer extends StatelessWidget {
             child: Column(
               children: [
                 Text(
-                'League of Legends Champion Collection',
+                'Lol Champion Collection',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 30,
@@ -63,6 +64,17 @@ class LeftDrawer extends StatelessWidget {
                 ));
             },
           ),
+          ListTile(
+    leading: const Icon(Icons.shopping_basket),
+    title: const Text('Product List'),
+    onTap: () {
+        // Route menu to product page
+        Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => const ProductPage()),
+        );
+    },
+),
         ],
       ),
     );
